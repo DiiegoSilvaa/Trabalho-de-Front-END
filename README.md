@@ -4,5 +4,5 @@ Este projeto foi desenvolvido em grupo como parte de um trabalho acadêmico, com
 ## Alunos:
 
 - Cauã Hernandes - (Github: ) (RGM: )
-- Diego Silva - (Github: ) (RGM: )
+- Diego Silva - (Github: DiiegoSilvaa) (RGM: 47855533)
 - João Victor Martines - (Github: jvcmartines) (RGM: 47404833)
