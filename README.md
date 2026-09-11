@@ -11,5 +11,5 @@ Um dos desenvolvedoress do projeto, o Cauã, trabalha na empresa Kion Dental Tec
 
 Com esse projeto nós aprendemos a trabalhar em grupo e organizar tarefas individuais para cada um, como cada um sendo responsável por entregar sua parte a um site.
 
-Projeto: https://dentaltechproject.netlify.app/
-Validator W3C: https://validator.w3.org/nu/?doc=https%3A%2F%2Fdentaltechproject.netlify.app%2F
+- Projeto: https://dentaltechproject.netlify.app/
+- Validator W3C: https://validator.w3.org/nu/?doc=https%3A%2F%2Fdentaltechproject.netlify.app%2F
