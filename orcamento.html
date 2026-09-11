@@ -28,7 +28,17 @@
         <main>
             <section>
                 <h2>Peça seu orçamento</h2>
-                <p>Preencha os dados do seu caso e a nossa equipe envia o valor e o prazo do trabalho.</p>
+                <p>Preencha os dados do seu caso e a nossa equipe envia o valor e o prazo do trabalho. Os campos com * são obrigatórios.</p>
+            </section>
+
+            <section>
+                <h2>Como funciona</h2>
+                <ol>
+                    <li>Você preenche o formulário.</li>
+                    <li>Um técnico do laboratório analisa o pedido.</li>
+                    <li>Enviamos o orçamento com o valor e o prazo.</li>
+                    <li>Depois da sua aprovação começamos a confecção.</li>
+                </ol>
             </section>
 
             <section>
@@ -38,23 +48,28 @@
                         <legend>Dados do dentista</legend>
 
                         <p>
-                            <label for="responsavel">Nome do responsável</label><br>
-                            <input type="text" id="responsavel" name="responsavel" placeholder="Digite seu nome">
+                            <label for="responsavel">Nome do responsável *</label><br>
+                            <input type="text" id="responsavel" name="responsavel" placeholder="Digite seu nome" minlength="3" maxlength="60" required>
                         </p>
 
                         <p>
-                            <label for="clinica">Nome da clínica</label><br>
-                            <input type="text" id="clinica" name="clinica" placeholder="Digite o nome da clínica">
+                            <label for="clinica">Nome da clínica *</label><br>
+                            <input type="text" id="clinica" name="clinica" placeholder="Digite o nome da clínica" maxlength="60" required>
                         </p>
 
                         <p>
-                            <label for="email">E-mail</label><br>
-                            <input type="text" id="email" name="email" placeholder="nome@email.com">
+                            <label for="email">E-mail *</label><br>
+                            <input type="email" id="email" name="email" placeholder="nome@email.com" required>
                         </p>
 
                         <p>
-                            <label for="telefone">Telefone</label><br>
-                            <input type="text" id="telefone" name="telefone" placeholder="(11) 91234-5678">
+                            <label for="telefone">Telefone *</label><br>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 91234-5678" pattern="\(\d{2}\)\s\d{5}-\d{4}" title="Digite no formato (11) 91234-5678" required>
+                        </p>
+
+                        <p>
+                            <label for="cnpj">CNPJ da clínica</label><br>
+                            <input type="text" id="cnpj" name="cnpj" placeholder="12.345.678/0001-90" pattern="\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}" title="Digite no formato 12.345.678/0001-90">
                         </p>
                     </fieldset>
 
@@ -62,8 +77,8 @@
                         <legend>Dados do trabalho</legend>
 
                         <p>
-                            <label for="tipo">Tipo de trabalho</label><br>
-                            <select id="tipo" name="tipo">
+                            <label for="tipo">Tipo de trabalho *</label><br>
+                            <select id="tipo" name="tipo" required>
                                 <option value="">Escolha o tipo</option>
                                 <option value="implante">Implante</option>
                                 <option value="inlay">Inlay/Onlay/Overlay</option>
@@ -75,13 +90,34 @@
                         </p>
 
                         <p>
-                            <label for="quantidade">Quantidade de dentes</label><br>
-                            <input type="text" id="quantidade" name="quantidade" value="1">
+                            <label for="quantidade">Quantidade de dentes *</label><br>
+                            <input type="number" id="quantidade" name="quantidade" min="1" max="32" value="1" required>
                         </p>
 
                         <p>
-                            <label for="observacoes">Observações</label><br>
-                            <textarea id="observacoes" name="observacoes" rows="6" cols="40"></textarea>
+                            <label for="material">Material *</label><br>
+                            <select id="material" name="material" required>
+                                <option value="">Escolha o material</option>
+                                <option value="zirconia">Zircônia</option>
+                                <option value="porcelana">Porcelana</option>
+                                <option value="resina">Resina composta</option>
+                                <option value="naodefinido">Ainda não definido</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="prazo">Data que precisa ficar pronto *</label><br>
+                            <input type="date" id="prazo" name="prazo" required>
+                        </p>
+
+                        <p>
+                            <label for="observacoes">Observações *</label><br>
+                            <textarea id="observacoes" name="observacoes" rows="6" cols="40" minlength="10" maxlength="500" required></textarea>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="aceito" name="aceito" value="sim" required>
+                            <label for="aceito">Confirmo que os dados estão certos *</label>
                         </p>
                     </fieldset>
 
@@ -90,6 +126,11 @@
                         <button type="reset">Limpar</button>
                     </p>
                 </form>
+            </section>
+
+            <section>
+                <h2>Ainda com dúvida?</h2>
+                <p>Se você ainda não sabe qual solução escolher, veja as nossas <a href="index3.html">soluções</a> ou fale com a gente na página de <a href="contato.html">contato</a>.</p>
             </section>
         </main>
 
