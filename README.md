@@ -5,4 +5,4 @@ Este projeto foi desenvolvido em grupo como parte de um trabalho acadêmico, com
 
 - Cauã Hernandes - (Github: ) (RGM: )
 - Diego Silva - (Github: ) (RGM: )
-- João Victor Martins - (Github: jvcmartines) (RGM: 47404833)
+- João Victor Martines - (Github: jvcmartines) (RGM: 47404833)
