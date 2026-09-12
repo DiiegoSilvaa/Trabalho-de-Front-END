@@ -7,7 +7,7 @@ Este projeto foi desenvolvido em grupo como parte de um trabalho acadêmico, com
 - Diego Silva - (Github: DiiegoSilvaa) (RGM: 47855533)
 - João Victor Martines - (Github: jvcmartines) (RGM: 47404833)
 
-Um dos desenvolvedoress do projeto, o Cauã, trabalha na empresa Kion Dental Tech, então quando ele saiu da faculdade em alguns dias, ele foi até lá e pediu autorização para poder desenvolver o site. (https://prnt.sc/3bHT52IdeRUD)
+Um dos desenvolvedoress do projeto, o Diego, trabalha na empresa Kion Dental Tech, então quando ele saiu da faculdade em alguns dias, ele foi até lá e pediu autorização para poder desenvolver o site. (https://prnt.sc/3bHT52IdeRUD)
 
 Com esse projeto nós aprendemos a trabalhar em grupo e organizar tarefas individuais para cada um, como cada um sendo responsável por entregar sua parte a um site.
 
