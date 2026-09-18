@@ -1,0 +1,19 @@
+IMAGENS QUE FALTAM ENVIAR
+=========================
+
+As paginas abaixo ja tem a tag <img> pronta, mas o arquivo de imagem ainda
+nao existe. Salve cada imagem nesta pasta EXATAMENTE com o nome da lista
+(tudo minusculo, sem acento e sem espaco) e ela aparece sozinha no site.
+
+  implantes.jpg              -> index2.html  (implantes dentarios)
+  inlay-onlay-overlay.jpg    -> index4.html  (inlay / onlay / overlay)
+  lente-de-contato.jpg       -> index5.html  (lente de contato)
+  facetas.jpg                -> index6.html  (facetas)
+  servicos.jpg               -> index7.html  (servicos especializados)
+
+Se a imagem que voce baixou for .png ou .webp em vez de .jpg, troque a
+extensao dentro do atributo src da pagina correspondente.
+
+Ja estao nesta pasta e funcionando:
+  kion.jpeg   -> index.html (pagina inicial) e index10.html (artigo)
+  kion2.webp, kion3.webp, kion4.webp, kion5.webp, kion6.webp -> index10.html
