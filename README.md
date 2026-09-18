@@ -13,3 +13,27 @@ Com esse projeto nós aprendemos a trabalhar em grupo e organizar tarefas indivi
 
 - Projeto: https://dentaltechproject.netlify.app/
 - Validator W3C: https://validator.w3.org/nu/?doc=https%3A%2F%2Fdentaltechproject.netlify.app%2F
+
+# KION Dental Technology
+Soluções digitais para o setor de prótese dentária.
+
+Sobre a empresa:
+
+A **KION Dental Technology** é um laboratório de prótese dentária que trabalha com tecnologia e processos digitais para desenvolver soluções odontológicas personalizadas. A empresa busca oferecer mais **precisão, praticidade e eficiência** no fluxo de trabalho entre laboratórios, clínicas e profissionais da área odontológica.
+
+Áreas de atuação
+
+* Prótese dentária
+* Odontologia digital
+* Fluxos de trabalho digitais
+* Soluções personalizadas
+* Atendimento a profissionais e clínicas odontológicas
+
+## Contato
+
+* **E-mail:** [falekion@kiondental.tech](mailto:falekion@kiondental.tech)
+* **Telefone:** 0800 591 0188
+* **WhatsApp:** (11) 4040-9440
+* **Site:** [kiondental.tech](https://kiondental.tech/)
+
+**KION Dental Technology** — tecnologia aplicada à odontologia.
